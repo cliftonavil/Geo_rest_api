@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+<h3>Current Address</h3>
+<table style="width:30%">
+    <tr>
+        <th>Current City:</th>
+        <td>{{city}}</td>
+    </tr>
+    <tr>
+        <th>State:</th>
+        <td>{{state}}</td>
+    </tr>
+    <tr>
+        <th>Country:</th>
+        <td>{{country}}</td>
+    </tr>
+    <tr>
+        <th>PIN Code:</th>
+        <td>{{code}}</td>
+    </tr>
+    <tr>
+        <th>Latitude:</th>
+        <td>{{latitude}}</td>
+    </tr>
+    <tr>
+        <th>Longitude:</th>
+        <td>{{longitude}}</td>
+    </tr>
+</table>
+</body>
+</html>
